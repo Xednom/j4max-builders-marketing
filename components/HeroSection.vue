@@ -2,7 +2,7 @@
   <section class="relative h-screen flex items-center justify-center overflow-hidden">
     <!-- Background Gradient/Image -->
     <div class="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-black z-0"></div>
-    <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-20 z-0"></div>
+    <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1581092335397-9583eb92d232?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-20 z-0"></div>
     
     <div class="container mx-auto px-4 relative z-10 text-center">
       <UBadge color="primary" variant="subtle" class="mb-4 px-3 py-1 text-sm rounded-full">
