@@ -2,7 +2,7 @@
   <div class="min-h-screen flex flex-col bg-gray-900 text-white">
     <header class="fixed w-full z-50 bg-gray-900/80 backdrop-blur-md border-b border-gray-800">
       <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-        <NuxtLink to="/" class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-cyan-400">J4MAX <span class="text-white">BUILDERS</span></NuxtLink>
+        <NuxtLink to="/" class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-cyan-400">J4MAX BUILDERS</NuxtLink>
         <nav class="hidden md:flex space-x-8">
           <NuxtLink to="#about" class="hover:text-primary-400 transition">About</NuxtLink>
           <NuxtLink to="#services" class="hover:text-primary-400 transition">Services</NuxtLink>
