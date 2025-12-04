@@ -3,7 +3,10 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
-  modules: ['@nuxt/ui', '@nuxt/image'],
+  modules: ['@nuxt/ui', '@nuxt/image', '@nuxtjs/sitemap'],
+  site: {
+    url: 'https://www.j4max.builders',
+  },
   app: {
     head: {
       title: 'J4MAX Builders Inc.',
