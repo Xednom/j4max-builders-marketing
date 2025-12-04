@@ -59,9 +59,11 @@
         &copy; {{ new Date().getFullYear() }} J4MAX Builders Inc. All rights reserved.
       </div>
     </footer>
+    <Analytics />
   </div>
 </template>
 
 <script setup>
+import { Analytics } from '@vercel/analytics/nuxt'
 // Layout logic if needed
 </script>
