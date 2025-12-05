@@ -16,8 +16,12 @@
         Innovative and sustainable engineering solutions. We deliver high-quality products and exceptional technical support for construction and industrial sectors.
       </p>
       <div class="flex flex-col sm:flex-row justify-center gap-4">
-        <UButton to="#services" size="xl" color="primary" variant="solid">Our Services</UButton>
-        <UButton to="#projects" size="xl" color="white" variant="ghost">View Projects</UButton>
+        <NuxtLink to="#services" class="inline-flex items-center justify-center px-8 py-3 text-base font-bold text-white transition-all duration-200 bg-gradient-to-r from-blue-800 to-cyan-400 rounded-full hover:from-blue-900 hover:to-cyan-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+          Our Services
+        </NuxtLink>
+        <NuxtLink to="#projects" class="inline-flex items-center justify-center px-8 py-3 text-base font-bold text-white transition-all duration-200 bg-transparent border border-white rounded-full hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white">
+          View Projects
+        </NuxtLink>
       </div>
     </div>
   </section>
