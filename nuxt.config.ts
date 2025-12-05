@@ -21,6 +21,10 @@ export default defineNuxtConfig({
         { property: 'og:type', content: 'website' },
         { property: 'og:title', content: 'J4MAX Builders Inc. - Engineering Excellence' },
         { property: 'og:description', content: 'Innovative and sustainable engineering solutions. We deliver high-quality products and exceptional technical support.' },
+        { property: 'og:locale', content: 'en_PH' },
+        // Location
+        { name: 'geo.region', content: 'PH' },
+        { name: 'geo.placename', content: 'Philippines' },
         // Twitter
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: 'J4MAX Builders Inc. - Engineering Excellence' },
